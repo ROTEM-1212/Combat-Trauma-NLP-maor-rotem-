@@ -45,37 +45,22 @@ Records may carry zero labels (**hard negatives** - text that superficially rese
 
 ## 2. Pipeline Architecture
 
-```
-[Stage 1] Synthetic Data Generation
-        │   src/data_generation.py
-        │   LLM-generated, DSM-5-grounded Hebrew text → data/dataset.json
-        ▼
-[Stage 3] Exploratory Data Analysis + TF-IDF/LR Baseline
-        │   src/eda.py
-        │   → visuals/*.png, artifacts/eda_tables.json, artifacts/baseline_eval.json
-        ▼
-[Stage 3.5] Validation: Realism Test + Annotation Export
-        │   src/validation.py
-        │   → artifacts/realism_test_results.json, data/annotation_export.csv
-        ▼
-        (manual) Two independent annotators label data/annotation_export.csv
-        │         → data/annotation_rater1.csv, data/annotation_rater2.csv
-        ▼
-[Stage 3.5b] Inter-Rater Reliability - Cohen's Kappa
-        │   src/validation.py :: compute_cohen_kappa()
-        │   → artifacts/kappa_results.json
-        ▼
-[Stage 4] Stratified Train/Test Split
-        │   src/splitting.py  (iterative stratification, Sechidis et al. 2011)
-        │   → data/train_dataset.json, data/test_dataset.json, artifacts/split_manifest.json
-        ▼
-[Stage 5] Model Fine-Tuning & Evaluation
-        │   src/modeling.py
-        │   GPT-4o-mini (zero-shot baseline) + SBERT (fine-tuned) + AlephBERT (fine-tuned)
-        │   → artifacts/eval_results.json, artifacts/misclassified_errors.xlsx
-        ▼
-[Stage 6] Reporting
-            src/report.py → reports/slide3_summary.md, reports/README_eda.md
+```mermaid
+flowchart TD
+    A[DSM-5 Criteria and Hebrew Slang Marker Bank] --> B[Synthetic Hebrew Review Generation]
+    B --> C[Exploratory Data Analysis and TF-IDF / LR Baseline]
+    C --> D[Realism Test vs. Real-World Reddit Text]
+    D --> E[Annotation Export]
+    E --> F[Manual Labeling by Two Independent Raters]
+    F --> G[Cohen's Kappa Inter-Rater Agreement]
+    G --> H[Stratified Train / Test Split]
+    H --> I[Zero-Shot GPT-4o-mini Baseline]
+    H --> J[Fine-Tuned SBERT]
+    H --> K[Fine-Tuned AlephBERT]
+    I --> L[Evaluation and Visualization]
+    J --> L
+    K --> L
+    L --> M[Report Generation]
 ```
 
 ### 2.1 Synthetic Data Generation (Stage 1)
@@ -104,7 +89,7 @@ To validate that the synthetic labels assigned at generation time are actually r
 - **Export:** `src/validation.py::export_for_annotation()` produces `data/annotation_export.csv` - a de-identified, label-stripped version of a dataset sample for blind annotation.
 - **Process:** two independent annotators label the export by hand against the 8-category schema, producing `data/annotation_rater1.csv` and `data/annotation_rater2.csv`.
 - **Agreement metric:** `src/validation.py::compute_cohen_kappa()` computes **Cohen's Kappa** per label (binary present/absent agreement for each of the 8 categories independently, since this is a multi-label - not multi-class - task) plus a macro-average across labels.
-- **Interpretation:** Kappa corrects raw percent-agreement for the agreement expected by chance. Conventionally: `<0` no agreement, `0–0.20` slight, `0.21–0.40` fair, `0.41–0.60` moderate, `0.61–0.80` substantial, `0.81–1.00` almost perfect (Landis & Koch, 1977).
+- **Interpretation:** Kappa corrects raw percent-agreement for the agreement expected by chance. Conventionally: `<0` no agreement, `0-0.20` slight, `0.21-0.40` fair, `0.41-0.60` moderate, `0.61-0.80` substantial, `0.81-1.00` almost perfect (Landis & Koch, 1977).
 - **Output:** `artifacts/kappa_results.json` - per-label Kappa plus `macro_avg`. This is a manual, on-demand step (not run automatically by `run_pipeline.py`), since it depends on human annotation being completed first.
 
 ### 2.4 Model Fine-Tuning (Stage 5)
@@ -138,7 +123,7 @@ All three models are scored on the same held-out test split (`data/test_dataset.
 ### Clone the repository
 
 ```bash
-git clone [Insert Repository URL]
+git clone https://github.com/ROTEM-1212/Combat-Trauma-NLP-maor-rotem-.git
 cd ptsd_pipeline
 ```
 
@@ -171,7 +156,7 @@ Both files extend `requirements-base.txt`, which pins the shared scientific-stac
 Create a `.env` file in the project root:
 
 ```env
-OPENAI_API_KEY=[Insert OpenAI API Key]
+OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 ### Verify GPU availability (optional)
@@ -218,7 +203,7 @@ python -c "from src.validation import compute_cohen_kappa; compute_cohen_kappa()
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
-MODEL_DIR = "[Insert path to fine-tuned model checkpoint]"
+MODEL_DIR = "./alephbert-ptsd"  # point this at your saved fine-tuned checkpoint
 LABELS = [
     "intrusive_memories", "avoidance", "hypervigilance", "sleep_disturbance",
     "anger_irritability", "emotional_numbing", "guilt_shame", "functional_impairment",
@@ -279,6 +264,8 @@ A detection rate of ~51% is statistically indistinguishable from chance (50%), i
 | SBERT (fine-tuned) | 0.760 | 0.844 | 0.912 | 0.877 | 0.838 |
 | **AlephBERT (fine-tuned)** | **0.897** | **0.960** | **0.931** | **0.945** | **0.931** |
 
+![Model comparison - F1-micro on the held-out test set across all four models (TF-IDF+LR, GPT-4o-mini, SBERT, AlephBERT).](Combat%20Trauma%20NLP/ptsd_pipeline/visuals/09_model_comparison.png)
+
 ### 5.4 AlephBERT - Per-Label F1
 
 | Symptom Label | Precision | Recall | F1-Score |
@@ -292,7 +279,20 @@ A detection rate of ~51% is statistically indistinguishable from chance (50%), i
 | `guilt_shame` | 0.921 | 0.814 | 0.864 |
 | `functional_impairment` | 0.853 | 0.879 | 0.866 |
 
+> Note: the per-label chart below is for the **fine-tuned SBERT** model (the table above is AlephBERT).
+
+![Fine-tuned SBERT - per-label Precision / Recall / F1 across the 8 PTSD symptom categories.](Combat%20Trauma%20NLP/ptsd_pipeline/visuals/11_perlabel_finetuned.png)
+
 **Headline result:** the fine-tuned, Hebrew-native AlephBERT model outperforms both the multilingual SBERT baseline (+9.3 F1-macro points) and the zero-shot GPT-4o-mini baseline (+24.3 F1-macro points), supporting the hypothesis that native Hebrew subword pretraining materially improves clinical symptom detection over multilingual or general-purpose LLM approaches in this low-resource setting.
+
+### 5.5 Dataset & EDA Visuals
+
+Key charts from `src/eda.py` (300 DPI, under `visuals/`). Hard-negative records (`labels=[]`) are included throughout.
+
+| | |
+|---|---|
+| ![Per-label frequency](Combat%20Trauma%20NLP/ptsd_pipeline/visuals/01_label_marginals.png) | ![Labels per record (0 = hard-negative)](Combat%20Trauma%20NLP/ptsd_pipeline/visuals/03_cardinality.png) |
+| ![Phi correlation between labels](Combat%20Trauma%20NLP/ptsd_pipeline/visuals/02b_label_correlation.png) | ![Top-20 military slang tokens](Combat%20Trauma%20NLP/ptsd_pipeline/visuals/08_slang_top20.png) |
 
 ---
 
@@ -327,3 +327,16 @@ ptsd_pipeline/
 - **Realism test sample size is small** (47 pairs) relative to the full dataset (2,000 records); detection-rate estimates carry non-trivial variance.
 - **No external/held-out clinical validation.** Performance is reported solely on a stratified split of the same synthetic distribution used for training; no real-world deployment cohort has been evaluated.
 - **Single annotator pair.** Kappa is computed between exactly two raters; it does not capture broader population-level annotator variance.
+
+---
+
+## 8. Contributors
+
+- Maor Sharon
+- Rotem
+
+---
+
+## 9. License
+
+Released under the MIT License. See [LICENSE](Combat%20Trauma%20NLP/ptsd_pipeline/LICENSE).
