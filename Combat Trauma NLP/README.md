@@ -327,16 +327,8 @@ ptsd_pipeline/
 - **Realism test sample size is small** (47 pairs) relative to the full dataset (2,000 records); detection-rate estimates carry non-trivial variance.
 - **No external/held-out clinical validation.** Performance is reported solely on a stratified split of the same synthetic distribution used for training; no real-world deployment cohort has been evaluated.
 - **Single annotator pair.** Kappa is computed between exactly two raters; it does not capture broader population-level annotator variance.
-
 ---
-
 ## 8. Contributors
 
 - Maor Sharon
-- Rotem
-
----
-
-## 9. License
-
-Released under the MIT License. See [LICENSE](ptsd_pipeline/LICENSE).
+- Rotem Hajbi
