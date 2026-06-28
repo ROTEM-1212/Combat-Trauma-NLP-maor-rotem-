@@ -1,0 +1,15 @@
+# requirements-gpu.txt
+# ──────────────────────────────────────────────────────────────────────────
+# Developer A (NVIDIA GPU, CUDA 12.8 - supports Blackwell sm_120 and older)
+# Includes all base dependencies + GPU-accelerated PyTorch wheels.
+#
+# Install:
+#   pip install -r requirements-gpu.txt
+# ──────────────────────────────────────────────────────────────────────────
+
+-r requirements-base.txt
+
+--index-url https://download.pytorch.org/whl/cu128
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0

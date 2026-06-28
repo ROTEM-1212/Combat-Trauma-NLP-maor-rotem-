@@ -1,0 +1,96 @@
+﻿{
+  "train": {
+    "accuracy": 0.944,
+    "f1_micro": 0.9727651393784044,
+    "f1_macro": 0.9671400987411736,
+    "precision_micro": 0.9535175879396985,
+    "recall_micro": 0.9928057553956835,
+    "per_label_f1": {
+      "anger_irritability": 0.9948717948717949,
+      "avoidance": 0.9646017699115044,
+      "emotional_numbing": 0.9612403100775194,
+      "functional_impairment": 0.9948186528497409,
+      "guilt_shame": 0.8856088560885609,
+      "hypervigilance": 0.978125,
+      "intrusive_memories": 0.9578544061302682,
+      "sleep_disturbance": 1.0
+    },
+    "per_label_precision": {
+      "anger_irritability": 0.9897959183673469,
+      "avoidance": 0.9478260869565217,
+      "emotional_numbing": 0.9253731343283582,
+      "functional_impairment": 0.9896907216494846,
+      "guilt_shame": 0.8333333333333334,
+      "hypervigilance": 0.9571865443425076,
+      "intrusive_memories": 0.9191176470588235,
+      "sleep_disturbance": 1.0
+    },
+    "per_label_recall": {
+      "anger_irritability": 1.0,
+      "avoidance": 0.9819819819819819,
+      "emotional_numbing": 1.0,
+      "functional_impairment": 1.0,
+      "guilt_shame": 0.9448818897637795,
+      "hypervigilance": 1.0,
+      "intrusive_memories": 1.0,
+      "sleep_disturbance": 1.0
+    }
+  },
+  "test": {
+    "accuracy": 0.74,
+    "f1_micro": 0.8485456369107321,
+    "f1_macro": 0.8207162321831779,
+    "precision_micro": 0.863265306122449,
+    "recall_micro": 0.834319526627219,
+    "per_label_f1": {
+      "anger_irritability": 0.9113924050632911,
+      "avoidance": 0.8125,
+      "emotional_numbing": 0.8115942028985508,
+      "functional_impairment": 0.7936507936507936,
+      "guilt_shame": 0.6170212765957447,
+      "hypervigilance": 0.900523560209424,
+      "intrusive_memories": 0.7857142857142857,
+      "sleep_disturbance": 0.9333333333333333
+    },
+    "per_label_precision": {
+      "anger_irritability": 0.96,
+      "avoidance": 0.8387096774193549,
+      "emotional_numbing": 0.8235294117647058,
+      "functional_impairment": 0.9615384615384616,
+      "guilt_shame": 0.58,
+      "hypervigilance": 0.8514851485148515,
+      "intrusive_memories": 0.7857142857142857,
+      "sleep_disturbance": 0.98
+    },
+    "per_label_recall": {
+      "anger_irritability": 0.8674698795180723,
+      "avoidance": 0.7878787878787878,
+      "emotional_numbing": 0.8,
+      "functional_impairment": 0.6756756756756757,
+      "guilt_shame": 0.6590909090909091,
+      "hypervigilance": 0.9555555555555556,
+      "intrusive_memories": 0.7857142857142857,
+      "sleep_disturbance": 0.8909090909090909
+    }
+  },
+  "classes": [
+    "anger_irritability",
+    "avoidance",
+    "emotional_numbing",
+    "functional_impairment",
+    "guilt_shame",
+    "hypervigilance",
+    "intrusive_memories",
+    "sleep_disturbance"
+  ],
+  "thresholds": [
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.5,
+    0.5,
+    0.5
+  ]
+}

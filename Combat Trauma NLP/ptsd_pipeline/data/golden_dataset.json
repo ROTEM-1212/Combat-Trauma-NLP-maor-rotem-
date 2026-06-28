@@ -1,0 +1,371 @@
+[
+  {
+    "text": "לא הצלחתי לישון בכלל, לא הייתי מסוגל לצאת לשום מקום, כל מגע או רעש קטן זרקו אותי ישר לפאניקה.",
+    "source": "golden_manual",
+    "labels": [
+      "sleep_disturbance",
+      "avoidance",
+      "hypervigilance"
+    ]
+  },
+  {
+    "text": "הייתי סגור בבית, מנותק מכולם, ולא הצלחתי להבין בכלל מה עובר עליי או איך לצאת מהברוך הזה.",
+    "source": "golden_manual",
+    "labels": [
+      "avoidance",
+      "emotional_numbing",
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "ראו לי את הצלקות והתחילו לשאול שאלות. לא חושב שזה בא בקטע רע, אבל זה ישר כיווץ אותי ושם אותי במצב סופר לא נעים.",
+    "source": "golden_manual",
+    "labels": [
+      "avoidance",
+      "hypervigilance"
+    ]
+  },
+  {
+    "text": "כשאני חוטף את הגל הזה, הגוף שלי אשכרה נכנס להלם. אני לא מצליח לנשום, הלב פועם על 200 ויש לי סחרחורות מטורפות.",
+    "source": "golden_manual",
+    "labels": [
+      "hypervigilance",
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "לפעמים בזמן ויכוח אני מאבד לגמרי ביטחון, מתחיל לאכול תסביכים ולתהות אם אני מדמיין הכל בגלל הלחץ בראש.",
+    "source": "golden_manual",
+    "labels": [
+      "guilt_shame",
+      "hypervigilance"
+    ]
+  },
+  {
+    "text": "הזיכרון שלי נדפק לגמרי בחודשים האחרונים, כנראה מכל מה שעברתי, ואני בקושי מצליח לזכור דברים שקרו אתמול.",
+    "source": "golden_manual",
+    "labels": [
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "ביום-יום אני מתפקד סבבה, אבל מספיק שמשהו קטן מלחיץ אותי, והמוח שלי ישר טס ל-200 קמ\"ש ולא מפסיק לטחון מחשבות.",
+    "source": "golden_manual",
+    "labels": [
+      "hypervigilance",
+      "intrusive_memories"
+    ]
+  },
+  {
+    "text": "לפעמים אני סתם עושה דברים רגילים, ופתאום בא לי גל פסיכי לראש – 'איך לעזאזל כל החרא הזה אשכרה קרה לי?'",
+    "source": "golden_manual",
+    "labels": [
+      "intrusive_memories",
+      "anger_irritability"
+    ]
+  },
+  {
+    "text": "כל פעם שאני מנסה להסביר משהו שמפריע לי, הדמעות פשוט יורדות בלי שליטה, הקול שלי רועד והגוף נדרך כמו קפיץ.",
+    "source": "golden_manual",
+    "labels": [
+      "hypervigilance",
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "אני תמיד על קוצים, סורק את השטח מכל כיוון ודרוך להקפצה בגלל כל מה שאכלתי שם.",
+    "source": "golden_manual",
+    "labels": [
+      "hypervigilance"
+    ]
+  },
+  {
+    "text": "יש רחובות וצמתים ספציפיים בארץ שאני פשוט שומר מהם מרחק כמו מאש כי הם ישר מציפים לי את כל הסרטים לראש.",
+    "source": "golden_manual",
+    "labels": [
+      "avoidance",
+      "intrusive_memories"
+    ]
+  },
+  {
+    "text": "לכל אחד מאיתנו יש את הדברים הקטנים האלה שישר מכניסים אותו למצב של פאניקה או חרדה מטורפת ומקפיצים לו את הלב.",
+    "source": "golden_manual",
+    "labels": [
+      "hypervigilance"
+    ]
+  },
+  {
+    "text": "פתאום ביום בהיר אחד הכל חוזר – הלחץ בחזה, הניתוק, הדיכאון, והתחושה שאתה פשוט כלום ושום דבר שלא שווה גרוש.",
+    "source": "golden_manual",
+    "labels": [
+      "intrusive_memories",
+      "emotional_numbing",
+      "guilt_shame"
+    ]
+  },
+  {
+    "text": "למה כולם אומרים שאני חייב לסלוח ולהמשיך הלאה? למה שאסלח למפקדים שדפקו אותי?",
+    "source": "golden_manual",
+    "labels": [
+      "anger_irritability"
+    ]
+  },
+  {
+    "text": "כל פעם שאני מספר מה עובר עליי ישר מציעים לי לארגן כיוון ושתרופות יעזרו. לי החרא הזה לא עוזר בכלל להתאפס.",
+    "source": "golden_manual",
+    "labels": [
+      "anger_irritability",
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "אני מרגיש שבחיים לא אצליח לחזור להיות מי שהייתי פעם, כל הבפנים שלי השתנה לגמרי.",
+    "source": "golden_manual",
+    "labels": [
+      "emotional_numbing",
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "הפחד הפך לאינסטינקט כל כך חזק אצלי שאני כל הזמן אוכל תסביכים ובכוננות ספיגה, גם כשאני בבית.",
+    "source": "golden_manual",
+    "labels": [
+      "hypervigilance"
+    ]
+  },
+  {
+    "text": "כשהיינו בתוך כל הבוץ שם ידעתי שמתישהו זה ייגמר, אבל עכשיו עם המחשבות האלה, אני פשוט לא רואה את הסוף.",
+    "source": "golden_manual",
+    "labels": [
+      "intrusive_memories",
+      "emotional_numbing"
+    ]
+  },
+  {
+    "text": "רק התחלתי לעבוד ואני אשכרה מרגיש שאין לי את המסוגלות להחזיק מעמד אפילו כמה שעות בלי להרגיש מחנק.",
+    "source": "golden_manual",
+    "labels": [
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "זה לא שאני לא רוצה להיות קרוב לאנשים, אני פשוט מרגיש קרוע מבפנים ומתקשה לבטוח במישהו אחרי מה שהיה.",
+    "source": "golden_manual",
+    "labels": [
+      "avoidance",
+      "emotional_numbing"
+    ]
+  },
+  {
+    "text": "אני מסתכל על תמונות שלי לפני הגיוס ומרגיש שאני רואה בן אדם אחר לגמרי, הוא לא ידע איזה מסלול מחכה לו.",
+    "source": "golden_manual",
+    "labels": [
+      "emotional_numbing",
+      "guilt_shame"
+    ]
+  },
+  {
+    "text": "מדברים איתי על קארמה, אבל האנשים שזרקו אותנו שם חיים בסבבה שלהם בלי שום דאגות, ואני פה נקרע.",
+    "source": "golden_manual",
+    "labels": [
+      "anger_irritability",
+      "guilt_shame"
+    ]
+  },
+  {
+    "text": "השנים עוברות והם ממשיכים בחיים כאילו כלום, בזמן שאני קורס תחת הלחץ ומחפש קצת אוויר לנשימה.",
+    "source": "golden_manual",
+    "labels": [
+      "anger_irritability",
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "אפילו בימים שבהם הראש שלי קצת פחות חופר, אני תמיד אתגעגע להרגשה של להיות נורמלי ורגוע כמו פעם.",
+    "source": "golden_manual",
+    "labels": [
+      "emotional_numbing",
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "אני מתגעגע לימים שהדברים שמקפיצים אותי עכשיו בכלל לא הזיזו לי. היום שום דבר כבר לא מרגיש אותו הדבר.",
+    "source": "golden_manual",
+    "labels": [
+      "hypervigilance",
+      "emotional_numbing"
+    ]
+  },
+  {
+    "text": "יש ימים שהראש פשוט נהיה גיהנום, כל החיים שלי מרגישים כאילו עצרו במקום, ואני סוחב משקולת בלי יכולת לשחרר.",
+    "source": "golden_manual",
+    "labels": [
+      "functional_impairment",
+      "emotional_numbing"
+    ]
+  },
+  {
+    "text": "לפעמים ההבזקים והסרטים בראש הם לא איזה התקף מטורף, אלא משהו הרבה יותר עמום, ובגלל זה לא קלטתי שאני בבעיה.",
+    "source": "golden_manual",
+    "labels": [
+      "intrusive_memories"
+    ]
+  },
+  {
+    "text": "כשאני מסתכל אחורה על השנים שעברו, יש לי ממש חורים שחורים בזיכרון שאני פשוט לא מצליח להשלים.",
+    "source": "golden_manual",
+    "labels": [
+      "functional_impairment",
+      "intrusive_memories"
+    ]
+  },
+  {
+    "text": "אני אפילו לא מצליח לארגן לעצמי את המחשבות מספיק בשביל להסביר מה עובר עליי, הראש שלי זה קווץ' אחד גדול.",
+    "source": "golden_manual",
+    "labels": [
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "הראש שלי כל כך מפוזר ודפוק מכל השירות שאני מרגיש שאי אפשר פשוט 'לתקן' אותי ולחזור לאיך שהייתי.",
+    "source": "golden_manual",
+    "labels": [
+      "functional_impairment",
+      "emotional_numbing"
+    ]
+  },
+  {
+    "text": "האנשים מבחוץ פשוט זורקים שאלות, בלי להבין שכל מילה שלהם מחזירה אותי ישר לאותם רגעים מסריחים ומקפיצה לי את הדופק.",
+    "source": "golden_manual",
+    "labels": [
+      "intrusive_memories",
+      "hypervigilance"
+    ]
+  },
+  {
+    "text": "אני כל כך דרוך ונעול על כל פרט קטן מסביב, שאפילו להיכנס לתוך מקום שיש בו קצת קהל מחריד אותי לגמרי.",
+    "source": "golden_manual",
+    "labels": [
+      "hypervigilance",
+      "avoidance"
+    ]
+  },
+  {
+    "text": "יש לי סיוטים ופלאשים כל הזמן, ולא הייתי מסוגל לדבר עם אף אחד כי זה ישר היה זורק אותי להזעות והתקף פאניקה.",
+    "source": "golden_manual",
+    "labels": [
+      "sleep_disturbance",
+      "intrusive_memories",
+      "avoidance",
+      "hypervigilance"
+    ]
+  },
+  {
+    "text": "משגע אותי שכל אחד אומר 'חטפתי שריטה' על איזו שטות בקפה, בזמן שאני נלחם בשדים האלה כל יום בשביל קצת שפיות.",
+    "source": "golden_manual",
+    "labels": [
+      "anger_irritability",
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "חשבתי שאם אקח קצת חופש הכל יסתדר ואחזור לעצמי, אבל כשהגעתי חזרה הבנתי ששום דבר לא חוזר להיות רגיל.",
+    "source": "golden_manual",
+    "labels": [
+      "functional_impairment",
+      "emotional_numbing"
+    ]
+  },
+  {
+    "text": "ניסיתי לנקות קצת את הראש כדי להתמודד עם כל מה ששמרתי בבטן שנים, אבל ציפיתי שהכל יחזור להיות כמו פעם וטעיתי בענק.",
+    "source": "golden_manual",
+    "labels": [
+      "avoidance",
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "זהו, כולם אינם. חלק סיימו עם זה בעצמם ואחד פשוט גמר את עצמו, נשארתי לבד מכל הצוות.",
+    "source": "golden_manual",
+    "labels": [
+      "guilt_shame",
+      "emotional_numbing"
+    ]
+  },
+  {
+    "text": "הייתי החובש שם, עשיתי כל מה שיכולתי בטירוף כדי לעזור להם, אבל זה פשוט לא הספיק ושום דבר לא עזר.",
+    "source": "golden_manual",
+    "labels": [
+      "guilt_shame"
+    ]
+  },
+  {
+    "text": "הכאב הזה של לסחוב הכל ולהישאר בחיים אחרי שכולם סביבי נפלו, פשוט אוכל אותי ושורף אותי מבפנים כל לילה.",
+    "source": "golden_manual",
+    "labels": [
+      "guilt_shame",
+      "sleep_disturbance",
+      "intrusive_memories"
+    ]
+  },
+  {
+    "text": "מרתיח אותי שאנשים זורקים 'אני מכיר חבר'ה שאכלו חרא אמיתי', כאילו יש פה איזה תחרות של מי נדפק הכי הרבה.",
+    "source": "golden_manual",
+    "labels": [
+      "anger_irritability"
+    ]
+  },
+  {
+    "text": "הרבה זמן התלבטתי אם לשתף את כל החרא הזה, כי רוב הזמן אני אוכל סרטים שהכל בכלל באשמתי.",
+    "source": "golden_manual",
+    "labels": [
+      "guilt_shame",
+      "avoidance"
+    ]
+  },
+  {
+    "text": "כל פעם שצצה איזו כתבה או שמזכירים את התקרית, זה פשוט מציף לי הכל מחדש ושואב אותי חזרה לתוך הלופ.",
+    "source": "golden_manual",
+    "labels": [
+      "intrusive_memories",
+      "hypervigilance"
+    ]
+  },
+  {
+    "text": "כל שיחה על מה שקרה שם פשוט מזכירה לי את כל הריחות והקולות, וזורקת אותי שוב לאותם רגעים מסריחים.",
+    "source": "golden_manual",
+    "labels": [
+      "intrusive_memories"
+    ]
+  },
+  {
+    "text": "אשכרה מתגאה בעצמי שהצלחתי הפעם להקשיב לגוף שלי ופשוט לעצור הכל, אנשים מבחוץ בחיים לא יבינו כמה זה קשה לי.",
+    "source": "golden_manual",
+    "labels": [
+      "functional_impairment"
+    ]
+  },
+  {
+    "text": "לפעמים זה תופס אותי משום מקום ואני מאבד את הנשימה ומחפש מאיפה תבוא המכה, למרות שאני במקום סופר בטוח.",
+    "source": "golden_manual",
+    "labels": [
+      "hypervigilance",
+      "intrusive_memories"
+    ]
+  },
+  {
+    "text": "הריחוק הזה שאני תופס מאנשים זה לא בא מקטע רע, זה פשוט קיר מגן שבניתי סביבי בשביל להצליח לשרוד את היום.",
+    "source": "golden_manual",
+    "labels": [
+      "avoidance",
+      "emotional_numbing"
+    ]
+  },
+  {
+    "text": "כל היום אני בסטרס מטורף ובתחושה שמישהו רודף אחריי, ורק מחפש מתי כבר יבוא קצת שקט בראש.",
+    "source": "golden_manual",
+    "labels": [
+      "hypervigilance"
+    ]
+  }
+]

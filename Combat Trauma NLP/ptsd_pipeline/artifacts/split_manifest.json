@@ -1,0 +1,62 @@
+﻿{
+  "seed": 1240,
+  "test_size": 0.25,
+  "n_total": 2000,
+  "n_train": 1495,
+  "n_test": 505,
+  "actual_test_ratio": 0.2525,
+  "js_divergence_train_test": 0.0,
+  "per_label_ratios": {
+    "anger_irritability": {
+      "total": 277,
+      "train": 208,
+      "test": 69,
+      "train_share": 0.7509
+    },
+    "avoidance": {
+      "total": 288,
+      "train": 216,
+      "test": 72,
+      "train_share": 0.75
+    },
+    "emotional_numbing": {
+      "total": 159,
+      "train": 119,
+      "test": 40,
+      "train_share": 0.7484
+    },
+    "functional_impairment": {
+      "total": 133,
+      "train": 100,
+      "test": 33,
+      "train_share": 0.7519
+    },
+    "guilt_shame": {
+      "total": 171,
+      "train": 128,
+      "test": 43,
+      "train_share": 0.7485
+    },
+    "hypervigilance": {
+      "total": 403,
+      "train": 302,
+      "test": 101,
+      "train_share": 0.7494
+    },
+    "intrusive_memories": {
+      "total": 167,
+      "train": 125,
+      "test": 42,
+      "train_share": 0.7485
+    },
+    "sleep_disturbance": {
+      "total": 438,
+      "train": 328,
+      "test": 110,
+      "train_share": 0.7489
+    }
+  },
+  "stratifier": "iterative_train_test_split",
+  "skmultilearn_version": "0.2.0",
+  "neg_class_used_for_stratification": "__NEG__"
+}

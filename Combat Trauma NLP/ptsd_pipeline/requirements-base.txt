@@ -1,0 +1,22 @@
+# requirements-base.txt
+# ──────────────────────────────────────────────────────────────────────────
+# Core project dependencies shared by ALL developers.
+# Do NOT install this file directly — use requirements-gpu.txt or
+# requirements-cpu.txt, which extend this file and add PyTorch.
+#
+# Install manually only if you are managing PyTorch separately:
+#   pip install -r requirements-base.txt
+# ──────────────────────────────────────────────────────────────────────────
+
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+arabic-reshaper>=3.0.0
+python-bidi>=0.6.0
+transformers>=4.40.0
+google-generativeai>=0.8.0
+openai>=1.40.0
+scikit-multilearn>=0.2.0
+openpyxl>=3.1.0

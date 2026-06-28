@@ -1,0 +1,14 @@
+# requirements-cpu.txt
+# ──────────────────────────────────────────────────────────────────────────
+# Developer B (CPU-only, no GPU)
+# Includes all base dependencies + standard CPU-only PyTorch wheels.
+#
+# Install:
+#   pip install -r requirements-cpu.txt
+# ──────────────────────────────────────────────────────────────────────────
+
+-r requirements-base.txt
+
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0

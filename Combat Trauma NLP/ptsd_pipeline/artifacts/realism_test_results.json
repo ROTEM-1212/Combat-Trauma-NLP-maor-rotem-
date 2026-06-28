@@ -1,0 +1,385 @@
+﻿{
+  "total_pairs": 47,
+  "correct_guesses": 24,
+  "detection_rate": 0.5106,
+  "flagged": false,
+  "flag_threshold": 0.85,
+  "pairs": [
+    {
+      "pair_id": 0,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "הרבה זמן התלבטתי אם לשתף את כל החרא הזה, כי רוב הזמן אני אוכל סרטים שהכל בכלל בא",
+      "synthetic_text_preview": "הרס\"ר שלנו שוב דפק אותנו עם התורנויות. החמ\"ל פה זה המקום הכי משעמם בעולם. פשוט ל"
+    },
+    {
+      "pair_id": 1,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "לפעמים אני סתם עושה דברים רגילים, ופתאום בא לי גל פסיכי לראש – 'איך לעזאזל כל הח",
+      "synthetic_text_preview": "זה התחיל כשחזרתי ללימודים, אני לא מצליח להרגיש שום שמחה. יש לי תחושה שאין לי קשר"
+    },
+    {
+      "pair_id": 2,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "הייתי סגור בבית, מנותק מכולם, ולא הצלחתי להבין בכלל מה עובר עליי או איך לצאת מהב",
+      "synthetic_text_preview": "זה התחיל כשחזרתי מהצפון. הגוף עייף, אבל המוח שלי לא נכבה. קשה לי לשלוט בעצבים, ו"
+    },
+    {
+      "pair_id": 3,
+      "synthetic_position": "B",
+      "llm_guess": "A",
+      "correct": false,
+      "real_text_preview": "כשהיינו בתוך כל הבוץ שם ידעתי שמתישהו זה ייגמר, אבל עכשיו עם המחשבות האלה, אני פ",
+      "synthetic_text_preview": "מאז שחזרתי למציאות אני לא עובר ברחוב ההוא. אני מרגיש כאילו יש לי חומת אבן סביב ה"
+    },
+    {
+      "pair_id": 4,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "אני מרגיש שבחיים לא אצליח לחזור להיות מי שהייתי פעם, כל הבפנים שלי השתנה לגמרי.",
+      "synthetic_text_preview": "מאז שיצאנו משם, אני מתקשה להשתחרר מזה. אולי זה בגלל שכל אופנוע שעובר נשמע לי כמו"
+    },
+    {
+      "pair_id": 5,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "כל פעם שאני מספר מה עובר עליי ישר מציעים לי לארגן כיוון ושתרופות יעזרו. לי החרא ",
+      "synthetic_text_preview": "קשה לי לשים על זה את האצבע מאז שחזרתי מהסבב האחרון. אני מרגיש שהגוף שלי במתח מתמ"
+    },
+    {
+      "pair_id": 6,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "כל פעם שאני מנסה להסביר משהו שמפריע לי, הדמעות פשוט יורדות בלי שליטה, הקול שלי ר",
+      "synthetic_text_preview": "מאז ה-7 באוקטובר אני סתם בוהה במסך שעות ולא עושה כלום. קשה לי להרגיש משהו, אפילו"
+    },
+    {
+      "pair_id": 7,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "ביום-יום אני מתפקד סבבה, אבל מספיק שמשהו קטן מלחיץ אותי, והמוח שלי ישר טס ל-200 ",
+      "synthetic_text_preview": "מאז שחזרתי לעבודה אני מתעורר עם דפיקות לב בלילה. לא יכול לשבת במקומות הומים, אני"
+    },
+    {
+      "pair_id": 8,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "חשבתי שאם אקח קצת חופש הכל יסתדר ואחזור לעצמי, אבל כשהגעתי חזרה הבנתי ששום דבר ל",
+      "synthetic_text_preview": "האמת היא שכשאני לבד, אני מרגיש קצת ריק בפנים. זה די מפחיד, כאילו אני בתוך בועה ו"
+    },
+    {
+      "pair_id": 9,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "הזיכרון שלי נדפק לגמרי בחודשים האחרונים, כנראה מכל מה שעברתי, ואני בקושי מצליח ל",
+      "synthetic_text_preview": "בתקופה האחרונה פתאום חוזרים לי קטעים לראש של דברים שקרו שם. זה קורה כל הזמן."
+    },
+    {
+      "pair_id": 10,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "כשאני מסתכל אחורה על השנים שעברו, יש לי ממש חורים שחורים בזיכרון שאני פשוט לא מצ",
+      "synthetic_text_preview": "המילואימניקים תמיד מקבלים את הציוד הישן. אין לי כוח לעוד צו 8 עכשיו. התבאסתי שלא"
+    },
+    {
+      "pair_id": 11,
+      "synthetic_position": "B",
+      "llm_guess": "A",
+      "correct": false,
+      "real_text_preview": "ראו לי את הצלקות והתחילו לשאול שאלות. לא חושב שזה בא בקטע רע, אבל זה ישר כיווץ א",
+      "synthetic_text_preview": "נשרף לי כל הקיץ במילואים האלה. מה חדש?"
+    },
+    {
+      "pair_id": 12,
+      "synthetic_position": "B",
+      "llm_guess": "A",
+      "correct": false,
+      "real_text_preview": "לפעמים זה תופס אותי משום מקום ואני מאבד את הנשימה ומחפש מאיפה תבוא המכה, למרות ש",
+      "synthetic_text_preview": "הנעליים הצבאיות גמרו לי את הרגליים. ממש כיף זה."
+    },
+    {
+      "pair_id": 13,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "הייתי החובש שם, עשיתי כל מה שיכולתי בטירוף כדי לעזור להם, אבל זה פשוט לא הספיק ו",
+      "synthetic_text_preview": "מאז שחזרתי למשפחה, אני מרגיש קצת שונה. אולי אני פשוט מתעצבן מכל שטות, לא בטוח. ז"
+    },
+    {
+      "pair_id": 14,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "למה כולם אומרים שאני חייב לסלוח ולהמשיך הלאה? למה שאסלח למפקדים שדפקו אותי?",
+      "synthetic_text_preview": "מאז שחזרתי ללימודים, אני מרגיש שהדברים שונים. כאילו בקטע מוזר."
+    },
+    {
+      "pair_id": 15,
+      "synthetic_position": "B",
+      "llm_guess": "A",
+      "correct": false,
+      "real_text_preview": "כל פעם שצצה איזו כתבה או שמזכירים את התקרית, זה פשוט מציף לי הכל מחדש ושואב אותי",
+      "synthetic_text_preview": "משהו עובר עליי מאז שחזרתי לשגרה. חלומות מוזרים יש לי, והם מפריעים לי לישון. זה פ"
+    },
+    {
+      "pair_id": 16,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "הפחד הפך לאינסטינקט כל כך חזק אצלי שאני כל הזמן אוכל תסביכים ובכוננות ספיגה, גם ",
+      "synthetic_text_preview": "קשה לי עם זה. מאז שחזרתי ללימודים, הכול מפוזר לי, ואני לא מצליח להחזיק סדר יום נ"
+    },
+    {
+      "pair_id": 17,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "זה לא שאני לא רוצה להיות קרוב לאנשים, אני פשוט מרגיש קרוע מבפנים ומתקשה לבטוח במ",
+      "synthetic_text_preview": "מאז שחזרתי לישון במיטה שלי, הכל מרגיש לי רחוק וזר. כאילו אני במין בועה, לא באמת "
+    },
+    {
+      "pair_id": 18,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "לא הצלחתי לישון בכלל, לא הייתי מסוגל לצאת לשום מקום, כל מגע או רעש קטן זרקו אותי",
+      "synthetic_text_preview": "נמאס לי מהפקקים בדרך לבסיס. זה לא הגיוני."
+    },
+    {
+      "pair_id": 19,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "אשכרה מתגאה בעצמי שהצלחתי הפעם להקשיב לגוף שלי ופשוט לעצור הכל, אנשים מבחוץ בחיי",
+      "synthetic_text_preview": "מאז שחזרתי מהסבב האחרון אני מרגיש שגם כשאני ישן אני לא באמת נח. בלילה אני מתעורר"
+    },
+    {
+      "pair_id": 20,
+      "synthetic_position": "B",
+      "llm_guess": "A",
+      "correct": false,
+      "real_text_preview": "מרתיח אותי שאנשים זורקים 'אני מכיר חבר'ה שאכלו חרא אמיתי', כאילו יש פה איזה תחרו",
+      "synthetic_text_preview": "מאז שחזרתי למציאות, כל דבר קטן מזכיר לי מה שראיתי. פתאום חוזרים לי קטעים לראש וז"
+    },
+    {
+      "pair_id": 21,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "השנים עוברות והם ממשיכים בחיים כאילו כלום, בזמן שאני קורס תחת הלחץ ומחפש קצת אוו",
+      "synthetic_text_preview": "שוב אכלנו לוף כל השבוע. החמ\"ל הזה משעמם בטירוף. הבוס שלי עושה לי פרצופים על המיל"
+    },
+    {
+      "pair_id": 22,
+      "synthetic_position": "B",
+      "llm_guess": "A",
+      "correct": false,
+      "real_text_preview": "אני מסתכל על תמונות שלי לפני הגיוס ומרגיש שאני רואה בן אדם אחר לגמרי, הוא לא ידע",
+      "synthetic_text_preview": "מאז שחזרתי לעבודה, אני מרגיש כמו מחוץ לסרט. הכל קורה ואני רק צופה, וזה ממש מעצבן"
+    },
+    {
+      "pair_id": 23,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "יש ימים שהראש פשוט נהיה גיהנום, כל החיים שלי מרגישים כאילו עצרו במקום, ואני סוחב",
+      "synthetic_text_preview": "אין לי כוח לשמירות האלה יותר. המדים שלי שוב מלאים בחול. אותו סיפור שוב ושוב."
+    },
+    {
+      "pair_id": 24,
+      "synthetic_position": "B",
+      "llm_guess": "A",
+      "correct": false,
+      "real_text_preview": "זהו, כולם אינם. חלק סיימו עם זה בעצמם ואחד פשוט גמר את עצמו, נשארתי לבד מכל הצוו",
+      "synthetic_text_preview": "מאז שחזרתי מהמילואים אני לא מצליח לישון לילה רצוף. המוח שלי לא נכבה ופתאום הכל צ"
+    },
+    {
+      "pair_id": 25,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "יש לי סיוטים ופלאשים כל הזמן, ולא הייתי מסוגל לדבר עם אף אחד כי זה ישר היה זורק ",
+      "synthetic_text_preview": "מאז שחזרתי ללימודים עשיתי עיקוף שלם כדי לא לעבור ליד הבסיס. מרגיש קצת ריק בפנים,"
+    },
+    {
+      "pair_id": 26,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "הריחוק הזה שאני תופס מאנשים זה לא בא מקטע רע, זה פשוט קיר מגן שבניתי סביבי בשביל",
+      "synthetic_text_preview": "כל פעם שאני יוצא מהבית, פתאום חוזרים לי קטעים לראש מתקופה ההיא. קשה לי להוציא או"
+    },
+    {
+      "pair_id": 27,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "אני כל כך דרוך ונעול על כל פרט קטן מסביב, שאפילו להיכנס לתוך מקום שיש בו קצת קהל",
+      "synthetic_text_preview": "מאז כל הסיפור אני לא הולך למפגשי צוות. זה פשוט לא הגיוני."
+    },
+    {
+      "pair_id": 28,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "רק התחלתי לעבוד ואני אשכרה מרגיש שאין לי את המסוגלות להחזיק מעמד אפילו כמה שעות ",
+      "synthetic_text_preview": "משהו לא בסדר מאז שנגמר הסבב. אולי זה כי אני בוהה במסך שעות בלי לעשות כלום, לא בט"
+    },
+    {
+      "pair_id": 29,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "כל היום אני בסטרס מטורף ובתחושה שמישהו רודף אחריי, ורק מחפש מתי כבר יבוא קצת שקט",
+      "synthetic_text_preview": "כל פעם שאני לבד אני מרגיש מנותק מהכל. פשוט לא קרוב לאף אחד. איזה יופי."
+    },
+    {
+      "pair_id": 30,
+      "synthetic_position": "B",
+      "llm_guess": "A",
+      "correct": false,
+      "real_text_preview": "אני אפילו לא מצליח לארגן לעצמי את המחשבות מספיק בשביל להסביר מה עובר עליי, הראש ",
+      "synthetic_text_preview": "מאז שחזרתי אני פשוט קצר עם בת הזוג שלי. הכל מעלה לי את הסעיף ואני מרגיש שזה לא ב"
+    },
+    {
+      "pair_id": 31,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "משגע אותי שכל אחד אומר 'חטפתי שריטה' על איזו שטות בקפה, בזמן שאני נלחם בשדים האל",
+      "synthetic_text_preview": "כל פעם שאני יוצא מהבית, הכל מעלה לי את הסעיף. אני מרגיש שאני מתעצבן מכל שטות וזה"
+    },
+    {
+      "pair_id": 32,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "לכל אחד מאיתנו יש את הדברים הקטנים האלה שישר מכניסים אותו למצב של פאניקה או חרדה",
+      "synthetic_text_preview": "הקטע הוא שמאז שחזרתי הביתה אני מרגיש שמשהו בי נהרס. פתאום אני מוצא את עצמי שוב ב"
+    },
+    {
+      "pair_id": 33,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "לפעמים ההבזקים והסרטים בראש הם לא איזה התקף מטורף, אלא משהו הרבה יותר עמום, ובגל",
+      "synthetic_text_preview": "שוב יש לי חול על המדים, זה מעצבן. הבוס שלי עושה לי פרצופים על המילואים, נו מה חד"
+    },
+    {
+      "pair_id": 34,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "כל שיחה על מה שקרה שם פשוט מזכירה לי את כל הריחות והקולות, וזורקת אותי שוב לאותם",
+      "synthetic_text_preview": "מאז התקופה בעזה, אני מרגיש שמשהו השתבש. אולי זה בגלל שאני מתעצבן מכל שטות lately"
+    },
+    {
+      "pair_id": 35,
+      "synthetic_position": "B",
+      "llm_guess": "A",
+      "correct": false,
+      "real_text_preview": "לפעמים בזמן ויכוח אני מאבד לגמרי ביטחון, מתחיל לאכול תסביכים ולתהות אם אני מדמיי",
+      "synthetic_text_preview": "אחרונה בקושי נרדם ומתעורר אחרי שעה. אני תמיד מחפש איפה היציאה, זה פשוט לא עוזב א"
+    },
+    {
+      "pair_id": 36,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "ניסיתי לנקות קצת את הראש כדי להתמודד עם כל מה ששמרתי בבטן שנים, אבל ציפיתי שהכל ",
+      "synthetic_text_preview": "מאז שהכל התחיל אני מתעורר בלילה ספוג בזיעה. הזיכרונות משם כל כך מוחשיים, פשוט קו"
+    },
+    {
+      "pair_id": 37,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "כשאני חוטף את הגל הזה, הגוף שלי אשכרה נכנס להלם. אני לא מצליח לנשום, הלב פועם על",
+      "synthetic_text_preview": "האמת שאחרי הסבב אני מרגיש כל הזמן כעס פנימי שלא יוצא. זה פשוט תקוע לי בראש ולא ע"
+    },
+    {
+      "pair_id": 38,
+      "synthetic_position": "B",
+      "llm_guess": "A",
+      "correct": false,
+      "real_text_preview": "פתאום ביום בהיר אחד הכל חוזר – הלחץ בחזה, הניתוק, הדיכאון, והתחושה שאתה פשוט כלו",
+      "synthetic_text_preview": "משהו עובר עליי lately. אני פתאום שוכח כל מיני דברים בסיסיים, והחיים שלי נהיים כא"
+    },
+    {
+      "pair_id": 39,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "הכאב הזה של לסחוב הכל ולהישאר בחיים אחרי שכולם סביבי נפלו, פשוט אוכל אותי ושורף ",
+      "synthetic_text_preview": "מאז שהכל נגמר אני לא מצליח לחזור לקצב בעבודה. אני מרגיש שאין לי אהבה או חום שיכנ"
+    },
+    {
+      "pair_id": 40,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "האנשים מבחוץ פשוט זורקים שאלות, בלי להבין שכל מילה שלהם מחזירה אותי ישר לאותם רג",
+      "synthetic_text_preview": "האוכל בבסיס נוראי. פשוט אי אפשר לחיות ככה."
+    },
+    {
+      "pair_id": 41,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "אני תמיד על קוצים, סורק את השטח מכל כיוון ודרוך להקפצה בגלל כל מה שאכלתי שם.",
+      "synthetic_text_preview": "בחודשים האחרונים אני קופץ מכל רעש חזק. כבר נמאס לי מזה."
+    },
+    {
+      "pair_id": 42,
+      "synthetic_position": "A",
+      "llm_guess": "B",
+      "correct": false,
+      "real_text_preview": "מדברים איתי על קארמה, אבל האנשים שזרקו אותנו שם חיים בסבבה שלהם בלי שום דאגות, ו",
+      "synthetic_text_preview": "החמ\"ל הזה פשוט משעמם. נו, אי אפשר ככה."
+    },
+    {
+      "pair_id": 43,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "יש רחובות וצמתים ספציפיים בארץ שאני פשוט שומר מהם מרחק כמו מאש כי הם ישר מציפים ",
+      "synthetic_text_preview": "מאז שחזרנו מהקו, משהו בי השתנה. אני מרגיש דרוך כל הזמן, אבל לא ברור למה. לפעמים "
+    },
+    {
+      "pair_id": 44,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "אני מתגעגע לימים שהדברים שמקפיצים אותי עכשיו בכלל לא הזיזו לי. היום שום דבר כבר ",
+      "synthetic_text_preview": "הרסר שוב דפק אותנו עם התורנויות. למה תמיד המילואימניקים מקבלים את הציוד הישן? שו"
+    },
+    {
+      "pair_id": 45,
+      "synthetic_position": "B",
+      "llm_guess": "B",
+      "correct": true,
+      "real_text_preview": "אפילו בימים שבהם הראש שלי קצת פחות חופר, אני תמיד אתגעגע להרגשה של להיות נורמלי ",
+      "synthetic_text_preview": "התנאים בשטח זוועתיים. נמאס לי לישון בשקי שינה. חם נורא ואין מזגן באוהל. חלאס!"
+    },
+    {
+      "pair_id": 46,
+      "synthetic_position": "A",
+      "llm_guess": "A",
+      "correct": true,
+      "real_text_preview": "הראש שלי כל כך מפוזר ודפוק מכל השירות שאני מרגיש שאי אפשר פשוט 'לתקן' אותי ולחזו",
+      "synthetic_text_preview": "מאז התקופה בעזה אני לא מצליח לישון כמו בן אדם. כל לילה אני מתעורר באמצע הלילה עם"
+    }
+  ]
+}
