@@ -333,10 +333,4 @@ ptsd_pipeline/
 ## 8. Contributors
 
 - Maor Sharon
-- Rotem
-
----
-
-## 9. License
-
-Released under the MIT License. See [LICENSE](Combat%20Trauma%20NLP/ptsd_pipeline/LICENSE).
+- Rotem Hajbi
